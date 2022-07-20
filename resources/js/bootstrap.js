@@ -6,6 +6,7 @@ window._ = _;
  * to our Laravel back-end. This library automatically handles sending the
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
+import '@popperjs/core'
 
 import * as bootstrap from 'bootstrap'
 window.bootstrap = bootstrap

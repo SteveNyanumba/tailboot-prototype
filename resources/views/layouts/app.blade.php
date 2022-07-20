@@ -10,11 +10,12 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
+        <!-- Scripts -->
+        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+
         <!-- Styles -->
         @livewireStyles
 
-        <!-- Scripts -->
-        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased bg-light">
         <x-jet-banner />
@@ -35,5 +36,7 @@
         @stack('modals')
 
         @livewireScripts
+
+        @stack('scripts')
     </body>
 </html>

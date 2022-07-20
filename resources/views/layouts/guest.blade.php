@@ -15,5 +15,7 @@
     </head>
     <body class="bg-light font-sans antialiased">
         {{ $slot }}
+
+        @stack('scripts')
     </body>
 </html>
